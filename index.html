@@ -1,11 +1,71 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; URL='https://apps.apple.com/us/app/orderly-the-post-purchase-app/id6452804073'" />
-    <title>Redirecting...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Orderly</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(to bottom right, #007AFF, #D353A6);
+            margin: 0; /* Remove default margin */
+        }
+        .app-store-button {
+            background-color: white;
+            color: #000;
+            margin-left: 10px; /* Adjust spacing between buttons */
+        }
+        .button-container {
+            margin-top: 3rem; /* Adjust this value as needed */
+        }
+        .iphone-border {
+            width: 310px; /* Adjust based on your image size */
+            height: 610px; /* Adjust based on your image size */
+            border-radius: 30px; /* Rounded corners */
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.7); /* Optional: Adds a shadow for depth */
+            background-color: black; /* iPhone color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8.5px; /* Adjusted for thinner border */
+        }
+        .iphone-screenshot {
+            width: 100%; /* Adjusted to fit within the border */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 20px; /* Slightly less rounded than the outer border */
+        }
+    </style>
 </head>
-<body>
-    <p>If you are not redirected, <a href="https://apps.apple.com/us/app/orderly-the-post-purchase-app/id6452804073">click here</a>.</p>
+
+<body class="bg-purple-700 text-white">
+    <div class="container mx-auto px-4 py-12">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="https://placehold.co/50x50" alt="Orderly logo" class="mr-2">
+                <span class="text-2xl font-bold">Orderly</span>
+            </div>
+            <a href="#" class="text-purple-200 hover:text-purple-100">Follow us on Instagram→</a>
+        </div>
+
+        <div class="text-center mt-12">
+            <h1 class="text-6xl font-bold">Every Order. Every Return. One App.</h1>
+            <div class="inline-block button-container">
+                <a href="#" class="app-store-button font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100">
+                    <i class="fab fa-app-store-ios"></i> App Store
+                </a>
+                <a href="#" class="app-store-button bg-white text-purple-700 font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100">
+                    <i class="fab fa-google-play"></i> Google Play
+                </a>
+            </div>
+        </div>
+
+        <div class="flex flex-col items-center mt-16">
+            <div class="iphone-border">
+                <img src="https://placehold.co/300x600" alt="App Screenshot" class="iphone-screenshot">
+            </div>
+        </div>         
+    </div>
 </body>
 </html>
